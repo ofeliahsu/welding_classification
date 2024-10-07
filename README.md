@@ -34,7 +34,7 @@
 ## ★ MainWindow.xaml.cs 調整:
 
 
-1. [新增] 第17行 宣告list & index
+### 1. [新增] 第17行 宣告list & index
 
 //  public partial class MainWindow : Window {...
 
@@ -43,7 +43,7 @@
         private int currentImageIndex = 0; // 追蹤當前顯示的圖片的索引
 
 
-2. [更改] 第106行 Select_Image_Click
+### 2. [更改] 第106行 Select_Image_Click
 
 勾選"單張圖片"模式只能選一張，勾選"多張模式"能選多張。
 
@@ -109,7 +109,7 @@
         }
 
 
-3. [更改] 第161行 Model_Select 使user無法同時勾選兩個模式，且模式的勾選可以一鍵切換。
+### 3. [更改] 第161行 Model_Select 使user無法同時勾選兩個模式，且模式的勾選可以一鍵切換。
 
         private void Model_Select(object sender, RoutedEventArgs e)
         {
@@ -128,7 +128,7 @@
         }
 
 
-4. [新增] DisplayCurrentImage 以顯示當前圖片名稱及大小
+### 4. [新增] DisplayCurrentImage 以顯示當前圖片名稱及大小
 
         private void DisplayCurrentImage()
         {
@@ -141,7 +141,7 @@
         }
 
 
-5. [新增] Previous_Image_Click 讓user在選擇"多張圖片"模式時，可選擇"上一張"以顯示上個順序的圖片
+### 5. [新增] Previous_Image_Click 讓user在選擇"多張圖片"模式時，可選擇"上一張"以顯示上個順序的圖片
 
         private void Previous_Image_Click(object sender, RoutedEventArgs e)
         {
@@ -153,7 +153,7 @@
         }
 
 
-6. [新增] Next_Image_Click 讓user在選擇"多張圖片"模式時，可選擇"下一張"以顯示下個順序的圖片
+### 6. [新增] Next_Image_Click 讓user在選擇"多張圖片"模式時，可選擇"下一張"以顯示下個順序的圖片
 
         private void Next_Image_Click(object sender, RoutedEventArgs e)
         {
