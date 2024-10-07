@@ -7,7 +7,7 @@
 TextBlock Grid.Row="0" Style="{StaticResource TextStyle}" Text="熔池影像" /
 <Border Grid.Row="0" VerticalAlignment="Top" Margin="0 29 0 0"
 <Image x:Name="Vertify_Image" VerticalAlignment="Top" Margin="0 0 0 10"/
-</Border
+</Border>
 ...
 
            
@@ -35,8 +35,7 @@ TextBlock Grid.Row="0" Style="{StaticResource TextStyle}" Text="熔池影像" /
 
 1. [新增] 第17行 宣告list & index
 
-//  public partial class MainWindow : Window
-//  {
+//  public partial class MainWindow : Window {...
 
 	//宣告list & index
         private List<BitmapImage> images = new List<BitmapImage>(); // 儲存多張圖片
