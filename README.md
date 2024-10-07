@@ -2,10 +2,10 @@
 
 ★ MainWindow.xaml 新增:
 AFTER
-{ <TextBlock Grid.Row="0" Style="{StaticResource TextStyle}" Text="熔池影像" />
+[ <TextBlock Grid.Row="0" Style="{StaticResource TextStyle}" Text="熔池影像" />
 <Border Grid.Row="0" VerticalAlignment="Top" Margin="0 29 0 0">
 	<Image x:Name="Vertify_Image" VerticalAlignment="Top" Margin="0 0 0 10"/>
-</Border>}
+</Border>]
 
 
            
