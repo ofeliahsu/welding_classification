@@ -1,11 +1,11 @@
 # welding_classification
 
-★ MainWindow.xaml 新增:
+##★ MainWindow.xaml 新增:
 AFTER
-<TextBlock Grid.Row="0" Style="{StaticResource TextStyle}" Text="熔池影像" />
-<Border Grid.Row="0" VerticalAlignment="Top" Margin="0 29 0 0">
-	<Image x:Name="Vertify_Image" VerticalAlignment="Top" Margin="0 0 0 10"/>
-</Border>
+> <TextBlock Grid.Row="0" Style="{StaticResource TextStyle}" Text="熔池影像" />
+> <Border Grid.Row="0" VerticalAlignment="Top" Margin="0 29 0 0">
+>	<Image x:Name="Vertify_Image" VerticalAlignment="Top" Margin="0 0 0 10"/>
+> </Border>
 
 
            
@@ -28,7 +28,7 @@ AFTER
 
 —————————————————————————————————————————————————————
 
-★ MainWindow.xaml.cs 調整:
+##★ MainWindow.xaml.cs 調整:
 
 
 1. [新增] 第17行 宣告list & index
