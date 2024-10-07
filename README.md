@@ -127,6 +127,7 @@
             }
         }
 
+
 4. [新增] DisplayCurrentImage 以顯示當前圖片名稱及大小
 
         private void DisplayCurrentImage()
@@ -150,6 +151,7 @@
                 DisplayCurrentImage();
             }
         }
+
 
 6. [新增] Next_Image_Click 讓user在選擇"多張圖片"模式時，可選擇"下一張"以顯示下個順序的圖片
 
